@@ -1,0 +1,29 @@
+/*Selector{
+	Property: value;
+}*/
+
+*
+
+
+.pics {
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.img {
+    max-width: 200px;
+	max-height: 200px;
+	margin: 10px;
+    transition: all 1s linear ;
+}
+
+.container {
+    justify-content: center;
+    text-align: center;
+	display:inline-grid;
+	gap: 10px;
+	grid-template-columns: auto auto auto;
+    
+
+
+}
